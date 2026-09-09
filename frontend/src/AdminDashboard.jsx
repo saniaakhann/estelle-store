@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./AdminDashboard.css";
 
-const API_URL = "http://127.0.0.1:8000/api";
+const API_URL = "https://estelle-store.onrender.com/api";;
 
 function AdminDashboard() {
   const [orders, setOrders] = useState([]);

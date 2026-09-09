@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import AdminDashboard from "./AdminDashboard";
 
-const API_URL = "http://127.0.0.1:8000/api";
+const API_URL = "https://estelle-store.onrender.com/api";;
 
 function App() {
   // =========================
